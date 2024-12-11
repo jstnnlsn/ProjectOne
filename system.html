@@ -10,7 +10,7 @@
 
     <nav>
         <div class="navbar-container">
-            <h1 class="website-title">JNelson Healthcare</h1>
+            <img id="logo" src="./img/JN.jpg">
             <ul class="navbar-links">
                 <li><a href="./home.html">Home</a></li>
                 <li><a href="./system.html">Application</a></li>
@@ -34,11 +34,20 @@
             <label for="age">Age</label>
             <input id="age" type="number">
 
-            <label for="gender">Gender</label>
+            <label for="gender">Biological Sex</label>
             <select id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <label for="insidnum">Insurance ID Number:</label>
+            <input id="insidnum" type="number">
+
+            <label for="instype">Insurance Plan</label>
+            <select id="instype">
+                <option value = "Individual">Individual</option>
+                <option value = "Family">Family</option>
+                <option value = "Group">Group</option>
             </select>
 
             <label for="payment">Insurance Payment</label>

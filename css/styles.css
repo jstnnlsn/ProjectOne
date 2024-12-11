@@ -6,8 +6,14 @@ body {
     background-color: #f4f4f4;
 }
 
+#logo {
+    display: flex;
+    width: 65px;
+
+}
+
 nav {
-    background-color: #333;
+    background-color: #ffffff;
     color: white;
     padding: 10px 0;
     position: sticky; 
@@ -41,7 +47,7 @@ nav {
 }
 
 .navbar-links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1rem;
     padding: 5px 10px;
@@ -49,11 +55,11 @@ nav {
 }
 
 .navbar-links a:hover {
-    background-color: #4CAF50;
+    background-color: rgba(49,100,225,255);
     transition: background-color 0.3s ease;
 }
 
-/* General form styling */
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -82,7 +88,7 @@ input, select {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #3164e1;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -92,7 +98,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #204092;
 }
 
 #user-data {
@@ -139,7 +145,7 @@ hr {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: rgba(49,100,225,255);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -148,9 +154,6 @@ button {
     margin: 5px 0;
 }
 
-button:hover {
-    background-color: #45a049;
-}
 
 h1, h2 {
     color: #333;
@@ -161,12 +164,16 @@ h1, h2 {
 
 h1 {
     font-size: 2rem; 
-    color: #4CAF50;
+    color: rgba(49,100,225,255);
     margin-bottom: 30px;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #4CAF50;
+    color: rgba(49,100,225,255);
     margin-bottom: 15px;
+}
+
+#submit-btn:hover {
+    background-color: green;
 }
