@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JNelson Healthcare</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <div class="navbar-container">
+            <h1 class="website-title">JNelson Healthcare</h1>
+            <ul class="navbar-links">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./system.html">Application</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Insurance Form</h2>
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text">
+
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text">
+
+            <label for="middleini">Middle Initial</label>
+            <input id="middleini" type="text">
+
+            <label for="age">Age</label>
+            <input id="age" type="number">
+
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="payment">Insurance Payment</label>
+            <input id="payment" type="number">
+
+            <button id="submit-btn">Submit</button>
+
+        </div>
+
+        <div id="user-data">
+            <h2>Pending Insurances</h2>
+            <div id="data-display"></div>
+        </div>
+    </div>
+
+    <script src="./js/function.js"></script>
+</body>
+</html>
